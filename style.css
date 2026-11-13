@@ -93,3 +93,4 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .quote, .ladder, .walls, .foot, .pairs, .status { opacity: 0; transition: opacity 1.4s ease; }
 body.ready .quote, body.ready .ladder, body.ready .walls, body.ready .foot, body.ready .pairs, body.ready .status { opacity: 1; }
 .quote { transition: opacity 1.4s ease .2s; }
+body.shot .top, body.shot .quote, body.shot .ladder, body.shot .walls, body.shot .foot { display: none !important; }
